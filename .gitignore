@@ -11,3 +11,7 @@ data/audits/
 
 # 前端依赖
 node_modules/
+
+# 凭据
+.env
+.env.*
