@@ -1,0 +1,489 @@
+:root {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC',
+    'Microsoft YaHei', sans-serif;
+  color-scheme: light;
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background: #f3f5fb;
+}
+
+:root[data-theme='dark'] body {
+  background: #0b1020;
+}
+
+/* 页面外壳：与 knowledge-hub-frontend 同构（顶栏 + 内容区），但这里只有一个页面。 */
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  height: 56px;
+  padding: 0 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+:root[data-theme='dark'] .app-header {
+  border-bottom-color: #1f2937;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.brand-mark {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  background: #4f46e5;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: -0.02em;
+}
+
+.brand-text {
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.brand-sub {
+  font-size: 12px;
+  opacity: 0.55;
+  white-space: nowrap;
+}
+
+.header-spacer {
+  flex: 1;
+}
+
+.app-main {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 24px 20px 48px;
+}
+
+.page-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.page-title {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.page-desc {
+  margin: 6px 0 0;
+  max-width: 70ch;
+  font-size: 13.5px;
+  opacity: 0.65;
+}
+
+.stat-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  margin-bottom: 20px;
+}
+
+.split {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: minmax(300px, 360px) minmax(0, 1fr);
+  align-items: start;
+}
+
+@media (max-width: 1040px) {
+  .split {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 720px) {
+  .app-main {
+    padding: 16px 12px 40px;
+  }
+  .brand-sub {
+    display: none;
+  }
+  .page-title {
+    font-size: 21px;
+  }
+}
+
+/* 运行列表：可点选的整行，选中态用左侧色条而不是纯背景，避免和 hover 混淆。 */
+.run-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 11px 14px;
+  border: 0;
+  border-bottom: 1px solid #f0f0f0;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+  transition: background 160ms;
+}
+
+:root[data-theme='dark'] .run-row {
+  border-bottom-color: #1f2937;
+}
+
+.run-row:last-child {
+  border-bottom: 0;
+}
+
+.run-row:hover {
+  background: rgba(79, 70, 229, 0.05);
+}
+
+.run-row[data-active='true'] {
+  background: rgba(79, 70, 229, 0.1);
+  box-shadow: inset 3px 0 0 #4f46e5;
+}
+
+.run-row-main {
+  min-width: 0;
+  flex: 1;
+}
+
+.run-row-id {
+  display: block;
+  font-family: ui-monospace, 'Cascadia Code', Consolas, monospace;
+  font-size: 11.5px;
+  opacity: 0.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.run-row-sub {
+  display: block;
+  margin-top: 2px;
+  font-size: 11.5px;
+  opacity: 0.6;
+}
+
+.run-row-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  flex: none;
+}
+
+/* 通过率进度条：比纯数字更快被扫到 */
+.rate-cell {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 150px;
+}
+
+.rate-cell .ant-progress {
+  margin: 0;
+  flex: 1;
+  min-width: 70px;
+}
+
+.rate-value {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  min-width: 46px;
+  text-align: right;
+}
+
+/* 任务矩阵：15 × N 的小方格，比表格更省空间 */
+.matrix {
+  display: grid;
+  gap: 3px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  justify-content: start;
+}
+
+.matrix-cell {
+  height: 30px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: default;
+  transition: transform 140ms;
+}
+
+.matrix-cell:hover {
+  transform: scale(1.09);
+}
+
+.matrix-cell[data-pass='true'] {
+  color: #0f9f6e;
+  background: #e7f8f0;
+}
+
+.matrix-cell[data-pass='false'] {
+  color: #dc2626;
+  background: #fef2f2;
+}
+
+:root[data-theme='dark'] .matrix-cell[data-pass='true'] {
+  color: #34d399;
+  background: #052e22;
+}
+
+:root[data-theme='dark'] .matrix-cell[data-pass='false'] {
+  color: #f87171;
+  background: #3f1113;
+}
+
+.matrix-head,
+.matrix-label {
+  font-size: 11px;
+  font-weight: 600;
+  opacity: 0.55;
+  display: flex;
+  align-items: center;
+  padding: 2px 4px;
+  white-space: nowrap;
+}
+
+.matrix-label {
+  font-family: ui-monospace, 'Cascadia Code', Consolas, monospace;
+  font-weight: 500;
+}
+
+.mono {
+  font-family: ui-monospace, 'Cascadia Code', Consolas, monospace;
+  font-size: 0.92em;
+}
+
+.answer-box {
+  margin-top: 6px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.04);
+  font-family: ui-monospace, 'Cascadia Code', Consolas, monospace;
+  font-size: 11.5px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  max-height: 140px;
+  overflow: auto;
+}
+
+:root[data-theme='dark'] .answer-box {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.center-box {
+  padding: 56px 24px;
+  text-align: center;
+}
+
+/* ================= 本项目特有样式 ================= */
+
+/* 顶栏里的模型与模式信息：窄屏隐藏，避免挤压品牌区 */
+@media (max-width: 720px) {
+  .header-meta {
+    display: none;
+  }
+}
+
+.muted {
+  opacity: 0.6;
+}
+
+/* 历史列表：卡片内部滚动，长列表不把整页撑高 */
+.audit-list {
+  max-height: 560px;
+  overflow-y: auto;
+}
+
+/* headline 单行省略：审计结论通常是一整句，列表里只用作识别 */
+.run-row-headline {
+  display: block;
+  font-size: 12.5px;
+  font-weight: 550;
+  line-height: 1.45;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 概览：严重度四块，窄屏两列 */
+.severity-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+@media (max-width: 900px) {
+  .severity-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.severity-block {
+  padding: 12px 14px;
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+:root[data-theme='dark'] .severity-block {
+  border-color: #1f2937;
+}
+
+.severity-block-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.severity-block-label {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.severity-block-value {
+  font-size: 26px;
+  font-weight: 650;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+}
+
+.severity-block .ant-progress {
+  margin: 0;
+}
+
+/* 概览大标题：与页面标题区分层级 */
+.finding-headline {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 650;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+}
+
+/* 节点链路：每条 trace 的头部一行，明细折叠 */
+.trace-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.trace-detail {
+  margin-top: 6px;
+}
+
+.trace-detail summary {
+  cursor: pointer;
+  font-size: 12px;
+  opacity: 0.65;
+  list-style: none;
+  user-select: none;
+}
+
+.trace-detail summary::-webkit-details-marker {
+  display: none;
+}
+
+.trace-detail pre {
+  margin: 8px 0 0;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.04);
+  font-family: ui-monospace, 'Cascadia Code', Consolas, monospace;
+  font-size: 11.5px;
+  line-height: 1.55;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  max-height: 320px;
+  overflow: auto;
+}
+
+:root[data-theme='dark'] .trace-detail pre {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* 窄屏统计卡：模板的 auto-fit 在 390px 下会塌成单列、留大片空白，这里固定两列 */
+@media (max-width: 720px) {
+  .stat-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+}
+
+/* 问题清单「影响」列：数字与占比一行，进度条单独一行，避免列宽太窄时被挤没 */
+.impact-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 118px;
+}
+
+.impact-cell-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.impact-count {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+
+.impact-cell .ant-progress {
+  margin: 0;
+  line-height: 1;
+}
+
+/* 进度条默认 8px 太细，影响占比小时几乎不可见；只加高度，不改变数值含义 */
+.impact-cell .ant-progress-inner {
+  height: 6px;
+  border-radius: 999px;
+}
+
+.impact-cell .ant-progress-bg {
+  height: 6px !important;
+  border-radius: 999px;
+}

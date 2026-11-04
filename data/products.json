@@ -1,0 +1,1426 @@
+{
+  "source": "D:/projects/localStorage.js · userInfo.product_list",
+  "extractedAt": "2026-11-03T03:00:32.789Z",
+  "total": 148,
+  "clientDict": {
+    "0": "Android",
+    "1": "PC",
+    "2": "iOS",
+    "3": "Harmony",
+    "4": "pad",
+    "5": "H5",
+    "6": "iPad",
+    "7": "小程序"
+  },
+  "products": [
+    {
+      "key": "a9e794455f23602f8cc8773b12c0a0dc",
+      "value": "360翻译",
+      "ai_product": 0,
+      "en_name": "360fanyi",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "c6f96215611375e62b8158fb675bc0a8",
+      "value": "电脑异常修复",
+      "ai_product": 0,
+      "en_name": "sys_repair",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "5a8aae5c4ba478780375f226e589c6ee",
+      "value": "360AI办公鸿蒙端",
+      "ai_product": 0,
+      "en_name": "aihermony",
+      "client_list": [
+        "3"
+      ]
+    },
+    {
+      "key": "f44b6b57473fb4b8e87bf5eef4c2a723",
+      "value": "测试无商户号产品验收",
+      "ai_product": 0,
+      "en_name": "ceshiwushanghuhao",
+      "client_list": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "key": "5927536d0bc052c43016e50378e36dbf",
+      "value": "奇彩手机管家",
+      "ai_product": 0,
+      "en_name": "qcmanager",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "2aa7add2aa4672b6e3bd607817f39069",
+      "value": "纳米studio",
+      "ai_product": 0,
+      "en_name": "NamiStudio",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "ba1aadab6c7dfac2a99ba7a50f6bbf6e",
+      "value": "全民玩图",
+      "ai_product": 0,
+      "en_name": "quanminwantu",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "64000266e887798af62026e99963910f",
+      "value": "小花卷",
+      "ai_product": 0,
+      "en_name": "xiaohuajuan",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "4f0206d8c32346639f25ceca1c36ca1e",
+      "value": "test_6hh",
+      "ai_product": 0,
+      "en_name": "test_6hh",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "909401ededb8401d82c57d63664b6ec6",
+      "value": "测试产品5hh",
+      "ai_product": 0,
+      "en_name": "test_5hh",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "55dc8015aec53742dea0150fefbc2e39",
+      "value": "测试产品qq1111",
+      "ai_product": 0,
+      "en_name": "qq111",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "9189680d9c09630981377c2a2a69e95e",
+      "value": "子产品3hh",
+      "ai_product": 0,
+      "en_name": "test_ee11",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "ca693696a9ccb5100d59e5fca37b88c5",
+      "value": "测试产品2hh",
+      "ai_product": 0,
+      "en_name": "test_2hh",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "8e00ddadaf3e442f6565ea5f8149f107",
+      "value": "测试全流程产品验收6",
+      "ai_product": 0,
+      "en_name": "ceshizhengchangliucheng6",
+      "client_list": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "key": "01f95ceed0b1dab3ce72f6787021b507",
+      "value": "全能播放器",
+      "ai_product": 0,
+      "en_name": "omnivideo",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "d5cdee9e7e44eb572101b930766e38c4",
+      "value": "测试产品1hh",
+      "ai_product": 0,
+      "en_name": "test1_hh",
+      "client_list": [
+        "0",
+        "7"
+      ]
+    },
+    {
+      "key": "66b34b735cf1d8d3720ef8d77cbfc112",
+      "value": "今好梦",
+      "ai_product": 0,
+      "en_name": "le_dream",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "96e3b8d2bf43e4a2e026cd92c6416783",
+      "value": "妙音岛",
+      "ai_product": 0,
+      "en_name": "MiaoyinIsland",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "08a247e821eaee43d7d5d6cc462a200f",
+      "value": "纳米Work",
+      "ai_product": 0,
+      "en_name": "namiwork",
+      "client_list": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "key": "90d29175a6dbb45ece8a160f81adc42c",
+      "value": "糖逗相机",
+      "ai_product": 0,
+      "en_name": "tangdou",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "440b61d40954cfd15ca4bcc3a6d0173a",
+      "value": "AI灵感成片",
+      "ai_product": 0,
+      "en_name": "inspire",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "abcc9165aa4ab8a60d284d31d9ee396e",
+      "value": "360AI办公助理",
+      "ai_product": 0,
+      "en_name": "360_AI_Office_Assistant",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "3053dc2c37093c97f8550df982c6280a",
+      "value": "测试应用创建",
+      "ai_product": 0,
+      "en_name": "test233lalalasadasdas",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "bcf76baecac05593ab4390a67157acdc",
+      "value": "测试新产品接入啦啦",
+      "ai_product": 0,
+      "en_name": "lalala",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "75791335d2de78a6c6ed9d0f8f5aca10",
+      "value": "全格式音频转换器",
+      "ai_product": 0,
+      "en_name": "audioconverter",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "c813504525f25db10e386546396bbb16",
+      "value": "专业证件照",
+      "ai_product": 0,
+      "en_name": "PRO_IDPHOTO",
+      "client_list": [
+        "7"
+      ]
+    },
+    {
+      "key": "2ea9c370df0e06415b8315d124db0119",
+      "value": "纳米大片流水线团队版",
+      "ai_product": 0,
+      "en_name": "namistory_team",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "bcf18ea983d62c5fa77c63f7f2982ce4",
+      "value": "P视频Web",
+      "ai_product": 0,
+      "en_name": "namivideoweb",
+      "client_list": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "key": "0996e0566072530a933786a2dbab933c",
+      "value": "修图设计室",
+      "ai_product": 0,
+      "en_name": "xiutushejishi",
+      "client_list": [
+        "0",
+        "5"
+      ]
+    },
+    {
+      "key": "6ae32f38107704edf1be0df564d5e2b8",
+      "value": "360智见",
+      "ai_product": 0,
+      "en_name": "360zhijian",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "5a05c7dc0f49e9bb82f6e7bd8f1744e4",
+      "value": "奇元最美证件照",
+      "ai_product": 0,
+      "en_name": "BEAUTYIDPHOTO",
+      "client_list": [
+        "7"
+      ]
+    },
+    {
+      "key": "95bceb807d5304871a474929ae015ce8",
+      "value": "PC收银台基础模版",
+      "ai_product": 0,
+      "en_name": "pcviptemplate",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "ed5160125079f3f47454dd76009bf5a8",
+      "value": "大会员PC收银台模版",
+      "ai_product": 0,
+      "en_name": "aiviptemplate",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "87aaaa5489fd5c13f0248d57796915c1",
+      "value": "360软件管家联合会员",
+      "ai_product": 0,
+      "en_name": "softmgrsvip",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "bae94063ae3ff463a9aefbc4c8ce4a8a",
+      "value": "pptultra",
+      "ai_product": 0,
+      "en_name": "pptultra",
+      "client_list": [
+        "1",
+        "0",
+        "2"
+      ]
+    },
+    {
+      "key": "bbeddf5e53278595d287d348db7168c0",
+      "value": "ceasfasf3号",
+      "ai_product": 0,
+      "en_name": "asfwef12",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "c484a2e7426df8fbbf4e9268c494f492",
+      "value": "ceasfasf2号",
+      "ai_product": 0,
+      "en_name": "werf123",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "12bc8a9d13485acfb0461a130c3528fa",
+      "value": "退款挽单产品",
+      "ai_product": 0,
+      "en_name": "refound",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "b33e978b0ba3f4dba0be77c63d631a5d",
+      "value": "AI创作会员",
+      "ai_product": 0,
+      "en_name": "aicreate",
+      "client_list": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "key": "9a70818588b3bff9883b52176f1e155e",
+      "value": "纳米漫剧流水线企业版",
+      "ai_product": 0,
+      "en_name": "namistoryteam",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "4ebf3349b2bdb816f66c45717c92a967",
+      "value": "全能解压缩",
+      "ai_product": 0,
+      "en_name": "omnizip",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "094f36fdaa92acaf363e079bd29fed38",
+      "value": "360安全龙虾（云端版）",
+      "ai_product": 0,
+      "en_name": "360clawcloud",
+      "client_list": [
+        "1",
+        "2",
+        "0"
+      ]
+    },
+    {
+      "key": "b8f43c4dfea381679218343a86972162",
+      "value": "MBTI性格测试",
+      "ai_product": 0,
+      "en_name": "mbti_h5",
+      "client_list": [
+        "5",
+        "1"
+      ]
+    },
+    {
+      "key": "ed6e7304fa1d176107acc081e2f06a02",
+      "value": "灵机AI",
+      "ai_product": 0,
+      "en_name": "AInspire",
+      "client_list": [
+        "1",
+        "5"
+      ]
+    },
+    {
+      "key": "b42ef492bb32436973fe74dbd3c335a9",
+      "value": "360安全龙虾",
+      "ai_product": 0,
+      "en_name": "360claw",
+      "client_list": [
+        "1",
+        "2",
+        "0"
+      ]
+    },
+    {
+      "key": "8deb458c4a757554ff9d7c5deb65f4a4",
+      "value": "自动生成测试参考产品-接入大会员",
+      "ai_product": 0,
+      "en_name": "zidongshengcheng",
+      "client_list": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "key": "81fe6f1b7dfbb901db8d20e32e654050",
+      "value": "商易剪",
+      "ai_product": 0,
+      "en_name": "shangyijian",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "5ab21f2355cba770885695560ac13f2d",
+      "value": "AI教研室",
+      "ai_product": 0,
+      "en_name": "ai_edu",
+      "client_list": [
+        "1",
+        "0",
+        "5"
+      ]
+    },
+    {
+      "key": "6dc6e32468819a976ec73d55c3dd98c5",
+      "value": "扶摇投放中台",
+      "ai_product": 0,
+      "en_name": "fuyao",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "a1a05a48904a61e22694bc1d15b29483",
+      "value": "甜虾漫剧-Android",
+      "ai_product": 0,
+      "en_name": "manju",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "0e55e0061dc8c30cc41df6bcbe3f20c2",
+      "value": "王朋测试产品wp_mock_failed",
+      "ai_product": 0,
+      "en_name": "wp_test_mock",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "8485822e47ff5697450aee27fe17fa46",
+      "value": "国学H5",
+      "ai_product": 0,
+      "en_name": "guoxueh5",
+      "client_list": [
+        "5",
+        "1"
+      ]
+    },
+    {
+      "key": "43ed10158c7ee52f218de7ec5bd81153",
+      "value": "日历pro",
+      "ai_product": 1,
+      "en_name": "calendarPro",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "fab2433531f6cd71413f68feab87da13",
+      "value": "360思维导图",
+      "ai_product": 0,
+      "en_name": "360Mindmap",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "2e20fc0d641b9a09cfe0e22c61ad9663",
+      "value": "PDF转换助手pro",
+      "ai_product": 0,
+      "en_name": "measure_pdf_wx",
+      "client_list": [
+        "7"
+      ]
+    },
+    {
+      "key": "d9dda854c4e0bd1bab99f12ba743352d",
+      "value": "纳米P视频编辑器",
+      "ai_product": 0,
+      "en_name": "namicut",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "559d0879e92dcccc7f681fc5f2ecc0a6",
+      "value": "证件照小程序",
+      "ai_product": 0,
+      "en_name": "IDphotoxcx",
+      "client_list": [
+        "7",
+        "5"
+      ]
+    },
+    {
+      "key": "af863ca9948018c0aa6b3bddb9ec3a97",
+      "value": "纳米录音笔记",
+      "ai_product": 0,
+      "en_name": "BotsNote",
+      "client_list": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "key": "6e560e4752ab45abdd892a5a117bb083",
+      "value": "空间清理助手ios",
+      "ai_product": 0,
+      "en_name": "aicleanup",
+      "client_list": [
+        "2"
+      ]
+    },
+    {
+      "key": "f26de8f90ef9d8114b18c563fd46bd8d",
+      "value": "多开保",
+      "ai_product": 0,
+      "en_name": "MultiGuard",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "cf59f792d921232fdd47a3215190d9b4",
+      "value": "360AI翻译",
+      "ai_product": 1,
+      "en_name": "360AI_Translation",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "f318fd89edd8ce13a53ccea6e419e71b",
+      "value": "鳗鱼剧场",
+      "ai_product": 0,
+      "en_name": "manyu",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "7108614fcd767ba87ef1bb13372d5bae",
+      "value": "放心清理管家",
+      "ai_product": 0,
+      "en_name": "fxmanager",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "3c8f27c5db31168399497930c16e450a",
+      "value": "纳米P视频",
+      "ai_product": 0,
+      "en_name": "namivideo",
+      "client_list": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "key": "d462fe38178443e696f8b16ddbfe43d3",
+      "value": "桌面助手",
+      "ai_product": 1,
+      "en_name": "Desktoplite",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "2ccd6e408894eda77da482290ecdefde",
+      "value": "墨鱼丸",
+      "ai_product": 0,
+      "en_name": "moyuwan",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "e43ccff9b557b258da78c70027f0c8c5",
+      "value": "360大会员智图",
+      "ai_product": 1,
+      "en_name": "360_Premium_Membership_Smart_Image",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "a93b5af0d3aa08a8b62a149f85527832",
+      "value": "支付宝小程序",
+      "ai_product": 0,
+      "en_name": "zfb_xcx",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "888f18dd7d2a70af4bc71c0d09ab26c7",
+      "value": "微信小程序",
+      "ai_product": 0,
+      "en_name": "wx_xcx",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "90585d8304cbab54b5896b676a5d0388",
+      "value": "全能CAD看图王",
+      "ai_product": 0,
+      "en_name": "360sudacad",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "f7e5341d2a347f7c84c75b05d1ad0059",
+      "value": "端所属事业部信息配置",
+      "ai_product": 0,
+      "en_name": "Informationconfigurationofthebusinessunittowhichtheendbelongs",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "5a74c137c5ad86befb1bd2ff2044990c",
+      "value": "子产品回显测试",
+      "ai_product": 0,
+      "en_name": "childproductshowtest",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "e66b95b64f88e60d545b483b1b0f6f9d",
+      "value": "360AI办公WAP端",
+      "ai_product": 0,
+      "en_name": "AI_office_WAP",
+      "client_list": [
+        "5"
+      ]
+    },
+    {
+      "key": "01ee0e646fde38149ec29ca8a6aa1eff",
+      "value": "高清水印相机",
+      "ai_product": 0,
+      "en_name": "watermark",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "838be42cae0a98283b0bd7c245e71ac4",
+      "value": "全能转换器",
+      "ai_product": 1,
+      "en_name": "Converter",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "5a12887e3abc44582713e6fa7785e384",
+      "value": "360录屏",
+      "ai_product": 1,
+      "en_name": "SudaCaplayer",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "9f82c6ca57616ba5b44631d585a9b700",
+      "value": "测量计数全能王",
+      "ai_product": 0,
+      "en_name": "mcpro",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "495929db9d7357e91b353d39749bf357",
+      "value": "360C盘扩容大师",
+      "ai_product": 1,
+      "en_name": "360DiskPart",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "4d7a50381d05208204abba98793304f6",
+      "value": "纳米AI搜索",
+      "ai_product": 0,
+      "en_name": "namiso",
+      "client_list": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "key": "c7954a7b33989915ffa4c8f0cf94626c",
+      "value": "AI爆款视频",
+      "ai_product": 1,
+      "en_name": "bao",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "94ea7c7f02440a08ca4a25da915866ae",
+      "value": "360AI办公iOS端",
+      "ai_product": 0,
+      "en_name": "",
+      "client_list": [
+        "2"
+      ]
+    },
+    {
+      "key": "ae3b1eb7e9e71a9db60f979516e6f23b",
+      "value": "360加速器",
+      "ai_product": 0,
+      "en_name": "speed_game",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "6e0c22cba32849d7814ef9f0cf552b22",
+      "value": "360AI办公安卓端",
+      "ai_product": 0,
+      "en_name": "",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "6e0c22cba32849d7814ef9f0cf552b21",
+      "value": "360数据恢复大师",
+      "ai_product": 0,
+      "en_name": "360DataRecoveryMaster",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "362af7b4bdca4ba23515a2e6ae30198d",
+      "value": "极速翻译官",
+      "ai_product": 0,
+      "en_name": "litetranslator",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "2b1a7402cadde7084cf8641f54f1c5f8",
+      "value": "手游助手",
+      "ai_product": 0,
+      "en_name": "GameAssistant",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "bce58f76fcf34a9914500c66d04023f0",
+      "value": "手心扫描王安卓",
+      "ai_product": 0,
+      "en_name": "scanner",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "3ad91dc16f9fcb8744ed41e7ddcbd192",
+      "value": "轻剪辑",
+      "ai_product": 0,
+      "en_name": "qutongkuan",
+      "client_list": [
+        "0",
+        "3"
+      ]
+    },
+    {
+      "key": "b69cfd46dc9c08d0d7f2f2ad816b1070",
+      "value": "趣同款",
+      "ai_product": 0,
+      "en_name": "",
+      "client_list": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "key": "bff1984964600595fd6aa94f0911aba2",
+      "value": "畅拍",
+      "ai_product": 0,
+      "en_name": "changpai",
+      "client_list": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "key": "70c32d737a2c4b63733569acc1f87105",
+      "value": "简影",
+      "ai_product": 0,
+      "en_name": "jianying",
+      "client_list": [
+        "0",
+        "3"
+      ]
+    },
+    {
+      "key": "53aee38000beb47503e5d56298edc1bf",
+      "value": "手心计数王鸿蒙",
+      "ai_product": 0,
+      "en_name": "appcount",
+      "client_list": [
+        "3"
+      ]
+    },
+    {
+      "key": "58dd2e0cf02676b5937c5780e76d6fa7",
+      "value": "手心扫描大师鸿蒙",
+      "ai_product": 0,
+      "en_name": "scanmaster",
+      "client_list": [
+        "3"
+      ]
+    },
+    {
+      "key": "2f106e94b188c60709ab378d5f061626",
+      "value": "手心扫描王iOS",
+      "ai_product": 0,
+      "en_name": "lenscanner",
+      "client_list": [
+        "2"
+      ]
+    },
+    {
+      "key": "aca4cf6571506fd1a95b39fe7b059f4d",
+      "value": "手心扫描王",
+      "ai_product": 0,
+      "en_name": "Lens Scanner",
+      "client_list": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "key": "774f0d2507696150763340cee58274d0",
+      "value": "手心清理管家",
+      "ai_product": 0,
+      "en_name": "sxmanager",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "2c6d90313968963369992ee6bf2eb508",
+      "value": "极速翻译器",
+      "ai_product": 0,
+      "en_name": "translator",
+      "client_list": [
+        "0",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "key": "62470cddb71ee76be57c99cf742179d9",
+      "value": "心动输入法",
+      "ai_product": 0,
+      "en_name": "xindong_input",
+      "client_list": [
+        "0",
+        "3"
+      ]
+    },
+    {
+      "key": "d445411b8fb166446557c560e64fd612",
+      "value": "360AI智剪",
+      "ai_product": 0,
+      "en_name": "360AIVideoEditor",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "2c28df3a5ff54d5e490bfd4316af2199",
+      "value": "快剪辑iOS",
+      "ai_product": 0,
+      "en_name": "StoryCut",
+      "client_list": [
+        "2"
+      ]
+    },
+    {
+      "key": "792ced81b45e121bc28c1810e86c6ca8",
+      "value": "权益兑换页",
+      "ai_product": 0,
+      "en_name": "welfare_page",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "2505d4657e5b0124efb2564f83e45f4b",
+      "value": "扫描测试全能王测试",
+      "ai_product": 0,
+      "en_name": "",
+      "client_list": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "key": "1195d497c36674fdad31e63342a07d7d",
+      "value": "扫描测量全能王",
+      "ai_product": 0,
+      "en_name": "measure",
+      "client_list": [
+        "0",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "key": "a10bfa6fb09f69be033b0ad0f377d3c4",
+      "value": "360下载加速",
+      "ai_product": 0,
+      "en_name": "360DownloadAcceleration",
+      "client_list": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "key": "7aee667a831e4eb1b78f650f1095b459",
+      "value": "WiFi万能宝",
+      "ai_product": 0,
+      "en_name": "powerful",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "07d548db7cc4100b4e47a896308563c2",
+      "value": "360智绘",
+      "ai_product": 1,
+      "en_name": "zhihui",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "9181f3156cf5936f033955c7de4ef5cb",
+      "value": "全能速清",
+      "ai_product": 0,
+      "en_name": "qnclean",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "a4c87fa8a6e249f244d9122d60a2c22a",
+      "value": "特殊支付场景通用产品",
+      "ai_product": 0,
+      "en_name": "special_payment",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "be0680b39d98146d2ba1343b1cbe4716",
+      "value": "WiFi闪连",
+      "ai_product": 0,
+      "en_name": "smartsafe",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "a39735619fcf5e5680014c22015e62e3",
+      "value": "写作助理",
+      "ai_product": 1,
+      "en_name": "writingassistant",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "771f8009c8cc332db50e93aa204d7bed",
+      "value": "快剪辑安卓",
+      "ai_product": 0,
+      "en_name": "Kuaijianji_android",
+      "client_list": [
+        "0",
+        "3",
+        "7"
+      ]
+    },
+    {
+      "key": "260df01d53b38fed0e0fd00dfef9c6c8",
+      "value": "文档AI助手",
+      "ai_product": 1,
+      "en_name": "doc_ai",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "36f516549917222c38a9157c65c18d86",
+      "value": "360AI浏览器",
+      "ai_product": 0,
+      "en_name": "aibrowser",
+      "client_list": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "key": "fe229c783262b07a17d2d7bb68e2e2f1",
+      "value": "去水印大师",
+      "ai_product": 0,
+      "en_name": "Qushuiyin_kjj",
+      "client_list": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "5"
+      ]
+    },
+    {
+      "key": "110b463e1cd11dd69687816934996387",
+      "value": "快扫描",
+      "ai_product": 0,
+      "en_name": "",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "90cd8e94c88cd9e7ab53c3fbf1e393ac",
+      "value": "360内容订阅会员",
+      "ai_product": 0,
+      "en_name": "content members",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "d8225692a628e21e68a48fbd70081eae",
+      "value": "360安全卫士",
+      "ai_product": 1,
+      "en_name": "360safe",
+      "client_list": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "key": "23bca3828165abc02cd53ee9ae07a690",
+      "value": "360PC浏览器",
+      "ai_product": 1,
+      "en_name": "pc_browser",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "1d4dcbbd0b2426f6c05a62901e4b20c2",
+      "value": "快剪辑",
+      "ai_product": 0,
+      "en_name": "kuaijianji_pc",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "66220c7f1344944fd6c4c83976f283e2",
+      "value": "360浏览器iOS版",
+      "ai_product": 0,
+      "en_name": "360iOSbrowser",
+      "client_list": [
+        "2"
+      ]
+    },
+    {
+      "key": "c93ca2afca0a5a3a9e07d9bcf58f2896",
+      "value": "AI能力",
+      "ai_product": 1,
+      "en_name": "ai",
+      "client_list": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "5",
+        "7"
+      ]
+    },
+    {
+      "key": "5c3dbd4953e297dae70aa1bf9684fb4c",
+      "value": "360手机极速浏览器",
+      "ai_product": 0,
+      "en_name": "litellq",
+      "client_list": [
+        "0",
+        "3"
+      ]
+    },
+    {
+      "key": "ad8cff29bb08de86799ab87976afd023",
+      "value": "360看图",
+      "ai_product": 1,
+      "en_name": "kantu",
+      "client_list": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "key": "ed89a44123e3925346c34c438775fd13",
+      "value": "甜虾剧场",
+      "ai_product": 0,
+      "en_name": "tianxia",
+      "client_list": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "key": "3b3b16d59eb2ba60623a6860a64a69df",
+      "value": "手心输入法",
+      "ai_product": 0,
+      "en_name": "shouxin_input",
+      "client_list": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "key": "1bfba0faedf9d68673c9c3d5fcbdb2b9",
+      "value": "智脑api开放平台",
+      "ai_product": 0,
+      "en_name": "zhinaoapi",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "a4fbad7dc70b5a1722dc783ec1760f73",
+      "value": "手心清理大师",
+      "ai_product": 0,
+      "en_name": "PalmCleane",
+      "client_list": [
+        "0",
+        "2"
+      ]
+    },
+    {
+      "key": "47e62e8852b450c74eec8d9e957f1a3f",
+      "value": "插件平台",
+      "ai_product": 0,
+      "en_name": "plugin",
+      "client_list": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "key": "04a14c359f9a1eff5a5d6571125ed0f2",
+      "value": "苏打办公",
+      "ai_product": 1,
+      "en_name": "sudaffice",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "5ec7f0e153ca1419d5eddbcd6e084785",
+      "value": "隐藏应用王者",
+      "ai_product": 0,
+      "en_name": "yincang",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "3b261da28ca366bfea145cd70f318e64",
+      "value": "360文库",
+      "ai_product": 0,
+      "en_name": "wenku",
+      "client_list": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "5",
+        "7"
+      ]
+    },
+    {
+      "key": "a137c54c28d4c80b51bee30d73d46a3d",
+      "value": "图查查",
+      "ai_product": 0,
+      "en_name": "tuchacha",
+      "client_list": [
+        "1"
+      ]
+    },
+    {
+      "key": "af974caa206be2ea79b68a06500f6b85",
+      "value": "360手机助手",
+      "ai_product": 0,
+      "en_name": "appstore",
+      "client_list": [
+        "0",
+        "5"
+      ]
+    },
+    {
+      "key": "a7a4c0041fd54ebf2590097ea19da667",
+      "value": "极连快传",
+      "ai_product": 0,
+      "en_name": "jiliankuaichuan",
+      "client_list": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "key": "1363deadde1684012e3e360858a19d11",
+      "value": "360画报",
+      "ai_product": 0,
+      "en_name": "huabao",
+      "client_list": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "key": "a60937eba57758ed45b6d3e91e8659f3",
+      "value": "360手机卫士极速版",
+      "ai_product": 0,
+      "en_name": "litemobilesecurity",
+      "client_list": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    {
+      "key": "e5a3ad3042a9cfbe7a84371e8b99c2e5",
+      "value": "360手机浏览器",
+      "ai_product": 0,
+      "en_name": "llq",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "40e4a12900b5d4a50a4d3365c8e9d8f3",
+      "value": "微X分身双开",
+      "ai_product": 0,
+      "en_name": "shuangkai",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "085743725edd08e724366bbb391b9b5e",
+      "value": "分身大师海外版",
+      "ai_product": 0,
+      "en_name": "",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "67db5cbc621e01617fcd11a78b4f10e5",
+      "value": "隐空间",
+      "ai_product": 0,
+      "en_name": "yinkongjian",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "3892cb73391254443518c1dc024c3cd7",
+      "value": "手心清理大师收款",
+      "ai_product": 0,
+      "en_name": "superclean",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "53b957dec122adeb0eafb734a22beef6",
+      "value": "360清理大师极速版",
+      "ai_product": 0,
+      "en_name": "cleandroid_lite",
+      "client_list": [
+        "0",
+        "3"
+      ]
+    },
+    {
+      "key": "65bffd38c6a06f63f355527b8f9bbc58",
+      "value": "安全清理专家收款",
+      "ai_product": 0,
+      "en_name": "supreman",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "62317bbce8952397c461abf19a5a9f28",
+      "value": "全能清理管家",
+      "ai_product": 0,
+      "en_name": "magic.clmanager",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "96c20285d4e3b18f17924a237bb8613b",
+      "value": "360手机卫士",
+      "ai_product": 0,
+      "en_name": "mobilesafe",
+      "client_list": [
+        "0"
+      ]
+    },
+    {
+      "key": "e3e4d8af7c1855045dea12ad90677624",
+      "value": "360清理大师会员",
+      "ai_product": 0,
+      "en_name": "cleandroid_cn",
+      "client_list": [
+        "0",
+        "3"
+      ]
+    },
+    {
+      "key": "805807dcef20231283b1611ee489882d",
+      "value": "分身大师",
+      "ai_product": 0,
+      "en_name": "msdocker_newssdk",
+      "client_list": [
+        "0",
+        "5"
+      ]
+    },
+    {
+      "key": "17e02c5ee297040738216020ea67dceb",
+      "value": "防拍大师会员服务",
+      "ai_product": 0,
+      "en_name": "peeping.terminator",
+      "client_list": [
+        "0"
+      ]
+    }
+  ]
+}

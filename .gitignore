@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/audits/
+.env
+
+# CI 工具缓存
+.ruff_cache/
+.mypy_cache/
+
+# 前端依赖
+node_modules/

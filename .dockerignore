@@ -1,0 +1,25 @@
+.dockerignore
+.venv
+__pycache__
+*.pyc
+*.pyo
+.pytest_cache
+.ruff_cache
+.mypy_cache
+# 前端依赖在 Docker 构建里重装；源码目录本身要保留（frontend 阶段需要拷贝）
+frontend/node_modules
+frontend/.vite
+data/audits
+.env
+.git
+.gitignore
+tests
+README.md
+resume.md
+run.sh
+server.log
+# 依赖与本地产物不进构建上下文：宿主的 node_modules 是 Windows 布局，
+# COPY frontend/ 会把它盖到容器里刚装好的 Linux 依赖上，vite 的 bin 直接变成坏链。
+**/node_modules
+frontend/dist
+web

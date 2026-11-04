@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "generated_at": "2026-11-04T03:19:18Z",
+    "platform": "Windows 11 / 本机",
+    "python": "3.12.10",
+    "latency_ms": 200,
+    "n": 50
+  },
+  "rows": [
+    {
+      "group": "async",
+      "concurrency": 1,
+      "total": 50,
+      "wall_s": 51.29241760005243,
+      "qps": 0.9748029502112782,
+      "p50_ms": 1025.1549000386149,
+      "p95_ms": 1032.390399952419,
+      "errors": 0,
+      "statuses": {
+        "201": 50
+      },
+      "max_probe_ms": 21.753,
+      "probe_count": 1
+    },
+    {
+      "group": "async",
+      "concurrency": 4,
+      "total": 50,
+      "wall_s": 13.614596599945799,
+      "qps": 3.6725289385510735,
+      "p50_ms": 1040.11519998312,
+      "p95_ms": 1111.0288000199944,
+      "errors": 0,
+      "statuses": {
+        "201": 50
+      },
+      "max_probe_ms": 21.753,
+      "probe_count": 1
+    },
+    {
+      "group": "async",
+      "concurrency": 8,
+      "total": 50,
+      "wall_s": 7.355764599982649,
+      "qps": 6.797389900176786,
+      "p50_ms": 1062.3781000031158,
+      "p95_ms": 1081.0637000249699,
+      "errors": 0,
+      "statuses": {
+        "201": 50
+      },
+      "max_probe_ms": 21.753,
+      "probe_count": 1
+    },
+    {
+      "group": "sync",
+      "concurrency": 1,
+      "total": 50,
+      "wall_s": 123.52879110001959,
+      "qps": 0.4047639384693377,
+      "p50_ms": 2343.5106000397354,
+      "p95_ms": 3459.6822999883443,
+      "errors": 0,
+      "statuses": {
+        "201": 50
+      },
+      "max_probe_ms": 28.427,
+      "probe_count": 1
+    },
+    {
+      "group": "sync",
+      "concurrency": 4,
+      "total": 50,
+      "wall_s": 72.36522569996305,
+      "qps": 0.6909395986313566,
+      "p50_ms": 5492.082400014624,
+      "p95_ms": 6950.357399997301,
+      "errors": 0,
+      "statuses": {
+        "201": 50
+      },
+      "max_probe_ms": 28.427,
+      "probe_count": 1
+    },
+    {
+      "group": "sync",
+      "concurrency": 8,
+      "total": 50,
+      "wall_s": 58.56313729996327,
+      "qps": 0.8537793961395466,
+      "p50_ms": 8820.921200094745,
+      "p95_ms": 9516.57780003734,
+      "errors": 0,
+      "statuses": {
+        "201": 50
+      },
+      "max_probe_ms": 28.427,
+      "probe_count": 1
+    },
+    {
+      "group": "blocking",
+      "concurrency": 1,
+      "total": 50,
+      "wall_s": 81.06078990001697,
+      "qps": 0.616821031002432,
+      "p50_ms": 1594.3808000301942,
+      "p95_ms": 1796.8077999539673,
+      "errors": 0,
+      "statuses": {
+        "201": 50
+      },
+      "max_probe_ms": 1695.942,
+      "probe_count": 1
+    },
+    {
+      "group": "blocking",
+      "concurrency": 4,
+      "total": 50,
+      "wall_s": 79.55959820002317,
+      "qps": 0.6284596847044589,
+      "p50_ms": 6307.235399959609,
+      "p95_ms": 6714.996599941514,
+      "errors": 0,
+      "statuses": {
+        "201": 50
+      },
+      "max_probe_ms": 1695.942,
+      "probe_count": 1
+    },
+    {
+      "group": "blocking",
+      "concurrency": 8,
+      "total": 50,
+      "wall_s": 75.88028379995376,
+      "qps": 0.6589326962958785,
+      "p50_ms": 12660.703100031242,
+      "p95_ms": 12766.175600001588,
+      "errors": 2,
+      "statuses": {
+        "201": 48,
+        "0": 2
+      },
+      "max_probe_ms": 1695.942,
+      "probe_count": 1
+    }
+  ]
+}
